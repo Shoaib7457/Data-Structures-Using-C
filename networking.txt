@@ -1,0 +1,50 @@
+
+
+create two servers 192.168.1.100/24 and 192.168.1.200/24 
+100 --> dns and web server
+200 --> mail server telnet server ftp srver and dhcp server 
+
+create a domain ucer.com --> www.ucer.com
+blog.ucer.com, drive.ucer.com, photos.ucer.com
+
+100 me ye sab subdomain banega hosting sab 100 me hi banega and har ek subdomain ka diferent page
+mail.ucer.com domain 100 me banega lekin mail configuration 200 hoga 
+200--> mail.ucer.com configure krna h
+mail.ucer.com ka hosting --> 200 
+imap pop3 ka port --> 200 
+create users as admin1 and admin2 
+hod1 and hod2 
+student1 and student2 
+admin1@ucer.com -->admin2@ucer.com
+
+telnet and ftp port 200 on krna h
+200 --> dhcp server 
+ip pool --> 192.168.1.10/24 - 192.168.1.90/24
+gateway - 192.168.1.1
+dns server -- 192.168.1.100
+
+file system --> 200 pe banega 
+/ me ek folder banega lets say ucercollege inside ucercollege folder create three folders admin, hod, student
+ucercollege folder me all the users(hod1/2, admin1/2, student1/2) should have view permission 
+no other users should have any permission (750)
+   on admin folder only the admin users will have full permission (770) no other user should have any permssion
+   on hod folder only the hod users will have full permission (770) no other user should have any permssion
+   on student folder only the student users will have full permission (770) no other user should have any permssion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
